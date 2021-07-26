@@ -8,3 +8,10 @@ tsc --init
 ##run a script using
 node index.ts
 
+if adding : string
+>> get error SyntaxError: Unexpected token ':'
+
+# run 
+tsc 
+# it will generate index.js run
+node index.js
