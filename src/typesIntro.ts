@@ -43,7 +43,7 @@ enum errorCodes {
 let errorCode = errorCodes.OUT_OF_MEMORY;
 console.log(errorCode)
 
-// tuple
+// tuple for specifying types strictly
 let tuple: [string, number, boolean] = ["abhishek", 15, true];
 console.log(tuple[0])
 console.log(tuple[1])
