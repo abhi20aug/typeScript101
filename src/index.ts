@@ -1,4 +1,4 @@
-function sayHello(name: string){
+function sayHello(name: any){
     console.log('Hello '+ name);
 }
 
