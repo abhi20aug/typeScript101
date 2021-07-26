@@ -33,7 +33,7 @@ var errorCodes;
 })(errorCodes || (errorCodes = {}));
 var errorCode = errorCodes.OUT_OF_MEMORY;
 console.log(errorCode);
-// tuple
+// tuple for specifying types strictly
 var tuple = ["abhishek", 15, true];
 console.log(tuple[0]);
 console.log(tuple[1]);
