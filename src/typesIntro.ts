@@ -56,3 +56,11 @@ function getNameAge(): [string, number]{
 getNameAge();
 console.log("name "+getNameAge()[0])
 console.log("age "+getNameAge()[1])
+
+function getAny(): any[]{
+    return ["abhishek",20]
+}
+
+getAny();
+console.log("any name "+getAny()[0])
+console.log("any age "+getAny()[1])
